@@ -1,0 +1,18 @@
+html,body{
+    height:297mm;
+    width:210mm;
+}
+
+.cadre{
+    border: 1px solid rgb(212, 0, 50);
+}
+
+.line{
+    display: flex;
+    flex-direction: row;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
