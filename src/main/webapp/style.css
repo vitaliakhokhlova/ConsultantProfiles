@@ -1,18 +1,28 @@
 html,body{
     height:297mm;
     width:210mm;
+    font-family: "Calibri";
+    font-size: 12pt;
 }
 
 .cadre{
-    border: 1px solid rgb(212, 0, 50);
+    border: 1pt solid rgb(212, 0, 50);
+    margin-bottom: 25px;
+    margin-top: 25px;
 }
 
 .line{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .column{
     display: flex;
     flex-direction: column;
+}
+
+legend{
+    font-size: 14pt;
+    color: rgb(118, 113, 133);
 }
