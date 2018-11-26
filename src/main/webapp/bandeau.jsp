@@ -7,11 +7,13 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-    <div class="line">
-        <fieldset class="cadre" id="name">
-           <p style="color:rgb(212, 0, 50); font-family:Source Sans Pro Bold; font-size:24pt"> Arthur Absalom</p>
-            <legend>Data Analyst, Data Scientist</legend>
-        </fieldset>
+    <div class="row">
+    <div class="column" id="name_block">
+        <div class="cadre" id="name">
+         Arthur Absalom</br>
+        </div>
+        <div id="metier">Data Analyst, Data Scientist</div>
+        </div>
         <div id="logo">
             <img src="logo.png">
         </div>

@@ -1,20 +1,41 @@
-<%@ page pageEncoding="UTF-8"%>
-<jsp:include page="bandeau.jsp" />
-    <div class="line">
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+    <div class="row">
+    <div class="column" id="name_block">
+        <div class="cadre" id="name">
+         Arthur Absalom</br>
+        </div>
+        <div id="metier">Data Analyst, Data Scientist</div>
+        </div>
+        <div id="logo">
+            <img src="assets/logo.png">
+        </div>
+    </div>
+    <div class="row">
         <div id="photo">
-            <img src="photo.png">
+            <center><img src="assets/photo.png"></br>29 ans</center>
         </div>
         <div class="column">
-
             <fieldset class="cadre" id="forces">
             <legend>FORCES GOGNITIVES</legend>
-                Attention aux détails, exactitude
-                Raisonnement logico-mathématique
-                Reconnaissance de patterns
-                Attention soutenue, concentration
+            <ul>
+                <li>Attention aux détails, exactitude
+                <li>Raisonnement logico-mathématique
+                <li>Reconnaissance de patterns
+                <li>Attention soutenue, concentration
+                </ul>
             </fieldset>
             <div id="expression">
-                «Knowledge is knowing that a tomato is a fruit. Wisdom is knowing not to put it in a fruit salad.» 
+                «Knowledge is knowing that a tomato is a fruit. Wisdom is knowing not to put it in a fruit salad.» </br>
+                </div>
+                 <div id="author">
                 Brian O’Driscoll (capitaine de l’équipe de rugby d’Irlande,2009)
             </div>
         </div>
@@ -30,7 +51,7 @@
             Systèmes d’exploitation : MacOS, Windows
             Mathématiques : Cryptosystèmes (ElGamal..), code correcteur, géométrie/topologie, statistiques/théorie de la décision, maths financières/biologique/physique, équations aux dérivées partielles, théorie des ensembles, algèbre abstraite, analyse numérique/discrète
         </fieldset>
-        <div class="line">
+        <div class="row">
             <fieldset class="cadre" id="formations">
             <legend>FORMATIONS</legend>
             Certificat de Mathématiques Financières – Institute and Faculty of Actuaries, Royaume-Uni 2015
@@ -51,6 +72,17 @@
                 </fieldset>
             </div>
         </div>
+        <div class="row">
+            <div class="column" id="name_block">
+                <div class="cadre" id="name">
+                 Arthur Absalom</br>
+                </div>
+                <div id="metier">Data Analyst, Data Scientist</div>
+                </div>
+                <div id="logo">
+                    <img src="logo.png">
+                </div>
+            </div>
         <fieldset class="cadre" id="projets">
         <legend>PROJETS AUTICONSULT</legend>
         Depuis avril 2018 : Data Analyst – Analyse de données des achats et conception d’algorithme de liste de course intelligente – Groupe Casino, Saint Etienne

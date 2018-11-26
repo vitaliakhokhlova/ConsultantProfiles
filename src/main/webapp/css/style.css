@@ -1,0 +1,86 @@
+html,body{
+    height:275.17mm;
+    width:190.5mm;
+    font-family: "Calibri";
+    font-size: 12pt;
+    padding: 1cm;
+}
+
+#logo{
+margin-bottom: 25px;
+margin-right: 25px;
+}
+
+.cadre{
+    border: 1pt solid rgb(212, 0, 50);
+    margin-bottom: 25px;
+    margin-right: 25px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+legend{
+    font-size: 14pt;
+    color: rgb(118, 113, 133);
+    font-weight: bold;
+}
+#name_block{
+    text-align: center;
+    vertical-align: center;
+}
+
+#name{
+    height: 2.21cm;
+    line-height: 2.21cm;
+    color: rgb(212, 0, 50);
+    font-family: Source Sans Pro Bold;
+    font-size: 24pt;
+    width: 10.58cm;
+}
+
+#metier{
+    font-family: Source Sans Pro Semi Bold;
+    color: rgb(118, 113, 133);
+    font-size: 14pt;
+    font-weight: bold;
+    margin-top: -37px;
+    background: #FFF;
+    margin-left: auto;
+        margin-right: auto;
+}
+
+#photo{
+    margin-right: 50px;
+    margin-left : 50px;
+    width: 50%
+}
+
+#expression{
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(212, 0, 50);
+    margin-right: 15px;
+    margin-left : 15px;
+}
+
+#author{
+    font-style: italic;
+    color: rgb(212, 0, 50);
+    margin-right: 15px;
+    margin-left : 15px;
+    font-size: 10pt;
+}
+
+ul {
+    list-style-image: url('assets/eclair.png');
+}
